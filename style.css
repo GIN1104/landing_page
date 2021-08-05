@@ -1,0 +1,494 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header > h1 {
+    color: white;
+}
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 3rem;
+
+}
+.header_img {
+    background-image: url("img/gold-bars.jpeg");
+    background-repeat: no-repeat, repeat;
+    min-height: 700px;
+    background-size: cover;
+}
+.text_gold {
+    color: gold;
+}
+#title-Tag-Line {
+    font-size: 20px;
+}
+.form_wrapper {
+    background: #fff;
+    max-width: 480px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-bottom: 5px;
+    float: right;
+    left: 0;
+    right: 0;
+    border-radius: 2rem;
+    justify-self: end;
+}
+.checkbox {
+  margin-right: 2vw;
+}
+.second_form_checkbox {
+  position: relative;
+  left: 9vw;
+}
+
+/* form animation starts */
+.form {
+
+    /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+    font-size: 1.3em;
+}
+
+.title {
+    /* display: relative; */
+    font-family: sans-serif;
+    /* margin: 10px auto 5px;
+    width: 300px;*/
+    height: 100px;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+.termsConditions {
+    margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+.secondaryTitle {
+    color: grey;
+}
+
+.input {
+    border: 1px solid rgb(153, 153, 174);
+    height: 3rem;
+    max-width: 80%;
+
+}
+.input:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 3rem;
+    width: 380px;
+    transition: ease 0.5s;
+}
+
+.formEntry {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+
+}
+
+.submit {
+    width: 200px;
+    color: white;
+    background-color: #2860ee;
+    border-radius: 0.7rem;
+    font-size: 20px;
+    border: none;
+}
+
+.submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-bottom: 5px solid #0e3750;
+    border-radius: 1rem;
+}
+.ontop {
+    position: absolute;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.container {
+    display: grid;
+
+}
+.black_line {
+    background-color: black;
+    color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    align-self: end;
+    bottom: 2rem;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.7;
+
+}
+.payments {
+    height: 80px;
+    max-width: 60vw;
+}
+.payments {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 7rem;
+    margin-left: 20%;
+}
+
+.payments > img {
+    margin-left: 20%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: auto;
+    height: 3rem;
+}
+
+.some_info {
+    margin: auto;
+}
+.some_info_text {
+    float: left;
+    width: 50%;
+    text-align: center;
+    height: auto;
+}
+.some_info_text > h1 {
+    font-size: 40px;
+}
+.some_info_text > h3 {
+    padding: 3rem;
+    line-height: 2rem;
+}
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+.some_info_img {
+    float: right;
+    width: 50%;
+
+}
+.some_info_img > img {
+    width: 60%;
+    height: auto;
+    margin-left: 25%;
+}
+.some_info {
+    width: auto;
+    margin-bottom: 4rem;
+}
+
+.card {
+    background-color: gold;
+    color: white;
+    padding: 2rem 2rem 5rem;
+    height: auto;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.cards {
+
+    display: grid;
+    grid-gap: 1rem;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+
+}
+.black {
+    color: black;
+}
+
+.material-icons {
+    font-size: 5rem !important;
+     margin: 2rem;
+}
+
+.particals {
+    background-image: url("img/fire-particles-png-2.png");
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    line-height: 2rem;
+    opacity: 0.8;
+}
+.second_form {
+    background-image: url("img/gold-bars2.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 100vw;
+    opacity: 0.7;
+}
+.second_form_wrapper {
+  background-color: white;
+  padding-bottom: 3rem;
+  border-radius: 2rem;
+  width: 53vw;
+  position: relative;
+  left: 24vw;
+  top: 15vw;
+}
+
+.footer {
+  background-color: rgba(55, 26, 7, 0.988);
+  color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem;
+  /* margin-top: 5rem; */
+  align-self: end;
+  bottom: 2rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+:root {
+    --hex-side: 200px;
+    --hex-rotate: 30deg;
+
+}
+.hexagon_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  top: 6vw;
+}
+
+.hexagon {
+    width: calc(var(--hex-side) * 1.732);
+    height: var(--hex-side);
+    background: gold;
+    position: relative;
+    transform: rotate(var(--hex-rotate));
+    color: white;
+
+}
+#bottom_hex{
+  position: relative;
+  left: calc(52vw - var(--hex-side));
+  top: 5vw;
+
+}
+
+.hexagon:after,
+.hexagon:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: gold;
+    top: 0;
+    left: 0;
+}
+
+.hexagon:before {
+    transform: rotate(60deg);
+}
+
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transform: rotate(-30deg);
+  line-height: 2rem;
+  right: 1vw;
+}
+.btn_hexagon {
+    display: block;
+    margin: 30px auto;
+    width: auto;
+    max-width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease 0s;
+    background-color: rgb(62, 56, 56);
+    color: white;
+    line-height: 4rem;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    font-size: x-large;
+}
+
+
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+    /* .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }*/
+} 
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);      
+    }
+    
+    
+}
+@media screen and (max-width: 1400px) {
+  .second_form {
+    height: 140vw;
+}
+.second_form_wrapper {
+  width: 80vw;
+  position: relative;
+  left: 7em;
+  top: 32vw;
+}
+#bottom_hex {
+  position: relative;
+  top: 9em;
+}
+
+}
+@media screen and (max-width: 600px) {
+    .payments {
+      position: relative;
+      width: 80vw;
+      left: -3em;
+      align-content: center;
+      margin-bottom: 4em;
+
+    }
+    .payments > img {
+        margin-left: 30px;
+        height: 2em;
+    }
+    .black_line {
+        max-width: 100vw;
+    }
+    .form_wrapper {
+        max-width: 100vw;
+        justify-self: center;
+    }
+    .ontop_hexagon {
+        line-height: 2.5rem;
+        font-size: small;
+    }
+    
+    .second_form_wrapper {
+      width: 80vw;
+      position: relative;
+      left: 10vw;
+      max-width: 90vw;
+      top: 30em;
+      height: 38em;
+    }
+    .some_info_text {
+      position: relative;
+      width: 95vw;
+      left: 1em;
+      text-align: center;
+    }
+    .some_info_img {
+      float: none;
+      width: 100vw;
+      margin-left: -2em;
+      margin-bottom: 2rem;
+    }
+    .btn_hexagon {
+      position: relative;
+      font-size: small;
+      line-height: 2.5rem;
+      border-radius: 1rem;
+   
+
+      left: 0;
+      top: 1em;
+    }
+
+
+  .hexagon_wrapper {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      left: 26vw;
+      top: 7em;
+      width: 70vw;
+  }
+  .cards {
+      grid-gap: 1rem;
+      /* width: 80%; */
+      margin-left: 10%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+  }
+  .second_form {
+      height: 200vh;
+  }
+  .text {
+   line-height: 1rem;
+   right: 2vw;
+}
+  #bottom_hex {
+      position: relative;
+      left: 26vw;
+      top: 23em;
+  }
+  .checkbox {
+    margin-right: 4vw;
+  }
+  .second_form_checkbox {
+    position: relative;
+    left: 0vw;
+  }
+  
+  #hex_sec{
+    position: relative;
+    left: 0vw;
+    top: 8em;
+  }
+  :root {
+      --hex-side: 150px;
+      --hex-rotate: 30deg;
+  
+  }
+
+}
+
+
+ 
